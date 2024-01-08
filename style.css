@@ -10,13 +10,14 @@ body {
 
 h1, h2, h3 {
     font-family: 'Mulish', serif;
-    font-size: 2.375rem;
+    font-size: clamp(1rem, 0.725rem + 1.375vw, 2.375rem);
     height: 3.5rem;
 }
 
 p {
-    font-size: 1rem;
+    font-size: clamp(0.694rem, 0.6327999999999999rem + 0.30600000000000005vw, 1rem);
     font-family: 'Mulish', sans-serif;
+    color: #021422;
 }
 
 .heroestext {
@@ -25,6 +26,10 @@ p {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    color: #021422;
+}
+
+a:link {
     color: #021422;
 }
 
@@ -68,7 +73,7 @@ p {
 }
 
 .downtext {
-    font-size: 2.375rem;
+    font-size: clamp(0.694rem, 0.6327999999999999rem + 0.30600000000000005vw, 1rem);
     text-align: center;
     position: relative;
     left: 50%;
