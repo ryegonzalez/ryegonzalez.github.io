@@ -249,6 +249,7 @@ a:visited {
 
 ul {
     list-style-type: none;
+    font-size: 1rem;
 }
 
 li {
