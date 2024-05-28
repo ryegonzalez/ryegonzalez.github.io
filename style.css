@@ -312,3 +312,12 @@ footer {
     transform: translate(-50%, -50%);
     color: #021422;
 }
+
+.linktext2 {
+    text-align: center;
+    position: absolute;
+    top: 325%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #021422;
+}
